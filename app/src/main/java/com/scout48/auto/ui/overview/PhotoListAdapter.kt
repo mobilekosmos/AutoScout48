@@ -23,7 +23,7 @@ import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
 import com.scout48.auto.databinding.LiCarBinding
-import com.scout48.auto.network.CarItem
+import com.scout48.auto.data.CarItem
 
 /**
  * This class implements a [RecyclerView] [ListAdapter] which uses Data Binding to present [List]
@@ -84,8 +84,8 @@ class PhotoListAdapter(private val onClickListener: OnClickListener ) :
      * associated with the current item to the [onClick] function.
      * @param clickListener lambda that will be called with the current [CarItem]
      */
-    class OnClickListener(val clickListener: (CarItem:CarItem) -> Unit) {
-        fun onClick(CarItem:CarItem) = clickListener(CarItem)
+    class OnClickListener(val clickListener: (CarItem: CarItem) -> Unit) {
+        fun onClick(CarItem: CarItem) = clickListener(CarItem)
     }
 }
 

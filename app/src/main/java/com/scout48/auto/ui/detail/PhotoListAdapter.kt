@@ -23,8 +23,8 @@ import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
 import com.scout48.auto.databinding.LiCarPhotoBinding
-import com.scout48.auto.network.CarImageUrl
-import com.scout48.auto.network.CarProperty
+import com.scout48.auto.data.CarImageUrl
+import com.scout48.auto.data.CarProperty
 
 /**
  * This class implements a [RecyclerView] [ListAdapter] which uses Data Binding to present [List]

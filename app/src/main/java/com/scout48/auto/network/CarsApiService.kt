@@ -17,6 +17,8 @@
 
 package com.scout48.auto.network
 
+import com.scout48.auto.data.CarBuyerNote
+import com.scout48.auto.data.CarProperty
 import com.squareup.moshi.Moshi
 import com.squareup.moshi.kotlin.reflect.KotlinJsonAdapterFactory
 import retrofit2.Retrofit

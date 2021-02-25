@@ -23,7 +23,6 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import com.scout48.auto.databinding.FragmentDetailBinding
-import com.scout48.auto.network.CarItem
 
 /**
  * This [Fragment] shows the detailed information about a selected piece of Mars real estate.

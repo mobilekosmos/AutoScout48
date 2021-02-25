@@ -22,6 +22,9 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
+import com.scout48.auto.data.CarBuyerNote
+import com.scout48.auto.data.CarItem
+import com.scout48.auto.data.CarProperty
 import com.scout48.auto.network.*
 import kotlinx.coroutines.launch
 
@@ -87,8 +90,8 @@ class OverviewViewModel : ViewModel() {
 //                }
 //                mCars.value = carsArrayList
 
-                // Kotlin-style of above code:
-                mCars.value = carsList.map { a -> CarItem(a.id, a, carsNotesList.find { a.id == it.vehicleId }?.note) }
+                // Kotlin-style of above code in getCarItemList()
+                mCars.value = getCarItemList(carsList, carsNotesList)
 
                 mStatus.value = CarsApiStatus.DONE
             } catch (e: Exception) {
@@ -98,6 +101,10 @@ class OverviewViewModel : ViewModel() {
             }
         }
     }
+
+    // TODO: write UNIT Test
+    private fun getCarItemList(carsList: List<CarProperty>, carsNotesList: List<CarBuyerNote>) =
+            carsList.map { a -> CarItem(a.id, a, carsNotesList.find { a.id == it.vehicleId }?.note) }
 
     // TODO: link with UI.
     /**

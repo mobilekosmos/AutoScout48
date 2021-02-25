@@ -27,7 +27,7 @@
 
         <variable
             name="photo"
-            type="com.scout48.auto.network.CarImageUrl" />
+            type="com.scout48.auto.data.CarImageUrl" />
     </data>
 
     <ImageView

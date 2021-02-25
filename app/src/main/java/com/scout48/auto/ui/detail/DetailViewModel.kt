@@ -18,8 +18,8 @@ package com.scout48.auto.ui.detail
 
 import android.app.Application
 import androidx.lifecycle.*
-import com.scout48.auto.network.CarItem
-import com.scout48.auto.network.CarProperty
+import com.scout48.auto.data.CarItem
+import com.scout48.auto.data.CarProperty
 
 /**
  *  The [ViewModel] associated with the [DetailFragment], containing information about the selected

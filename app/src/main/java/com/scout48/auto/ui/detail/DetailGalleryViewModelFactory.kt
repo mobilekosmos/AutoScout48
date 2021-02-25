@@ -19,7 +19,7 @@ package com.scout48.auto.ui.detail
 import android.app.Application
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import com.scout48.auto.network.CarProperty
+import com.scout48.auto.data.CarProperty
 
 /**
  * Simple ViewModel factory that provides the CarProperty and context to the ViewModel.

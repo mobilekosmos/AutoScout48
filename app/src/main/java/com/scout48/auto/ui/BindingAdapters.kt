@@ -25,8 +25,8 @@ import androidx.databinding.BindingAdapter
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.bumptech.glide.request.RequestOptions
-import com.scout48.auto.network.CarImageUrl
-import com.scout48.auto.network.CarItem
+import com.scout48.auto.data.CarImageUrl
+import com.scout48.auto.data.CarItem
 import com.scout48.auto.ui.overview.CarsApiStatus
 
 /**

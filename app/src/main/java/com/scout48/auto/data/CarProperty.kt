@@ -15,7 +15,7 @@
  *
  */
 
-package com.scout48.auto.network
+package com.scout48.auto.data
 
 import android.os.Parcelable
 import com.squareup.moshi.Json

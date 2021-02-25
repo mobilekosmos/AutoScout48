@@ -27,7 +27,7 @@
 
         <variable
             name="car"
-            type="com.scout48.auto.network.CarItem" />
+            type="com.scout48.auto.data.CarItem" />
     </data>
 
     <LinearLayout
@@ -65,7 +65,6 @@
             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
             tools:text="Mercedes Benz C250 cdi AMG-Line" />
 
-        <!-- TODO: add currency symbol -->
         <androidx.appcompat.widget.AppCompatTextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
