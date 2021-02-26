@@ -1,24 +1,16 @@
-<!--
-  ~ Copyright 2019, The Android Open Source Project
-  ~
-  ~ Licensed under the Apache License, Version 2.0 (the "License");
-  ~ you may not use this file except in compliance with the License.
-  ~ You may obtain a copy of the License at
-  ~
-  ~     http://www.apache.org/licenses/LICENSE-2.0
-  ~
-  ~ Unless required by applicable law or agreed to in writing, software
-  ~ distributed under the License is distributed on an "AS IS" BASIS,
-  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-  ~ See the License for the specific language governing permissions and
-  ~ limitations under the License.
-  ~
-  -->
-
 <resources>
     <string name="app_name">Auto Scout48</string>
+
     <string name="car_gallery_title">Photos</string>
     <string name="car_details">Details</string>
     <string name="car_note_label">Note: %s</string>
     <string name="car_price">%s €</string>
+
+    <string name="menu_login_title">Log in</string>
+    <string name="menu_settings_title">Settings</string>
+    <string name="menu_about_title">About</string>
+
+    <string name="bottom_search">Search</string>
+    <string name="bottom_favorites">Favorites</string>
+    <string name="bottom_sell">Sell</string>
 </resources>
